@@ -1,2 +1,9 @@
 -e git+https://github.com/mindee/doctr.git#egg=python-doctr[tf]
-streamlit>=1.0.0
+streamlit>=1.30.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
